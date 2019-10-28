@@ -105,6 +105,10 @@ int main (){
     if(ff&&!bf&&!wf)cout<<"In this example, first-fit turns out to be the best.\n";
     else if(!ff&&bf&&!wf)cout<<"In this example, best-fit turns out to be the best.\n";
     else if(!ff&&!bf&&wf)cout<<"In this example, worst-fit turns out to be the best.\n";
+    else if(ff&&bf&&!wf)cout<<"In this example, both first-fit and best-fit are efficient.\n";
+    else if(ff&&!bf&&wf)cout<<"In this example, both first-fit and worst-fit are efficient.\n";
+    else if(!ff&&bf&&wf)cout<<"In this example, both best-fit and worst-fit are efficient.\n";
+    else if(!ff&&!bf&&!wf)cout<<"In this example, none of them are efficient.\n";
     return 0;
 }
 /*
