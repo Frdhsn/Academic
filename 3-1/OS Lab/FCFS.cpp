@@ -66,8 +66,8 @@ int main (){
     for(int i=1;i<=N;i++){
             //cout<<"Enter name , burst time , priority: ";
             cin >> Array[i].name >> Array[i].BT >> Array[i].priority;
-            // If arrival time is given
-            // cin >> Array[i].AT;
+            // If arrival time is given use this
+            // cin >> Array[i].name >> Array[i].AT >> Array[i].BT >> Array[i].priority;
     }
 
     int time = 0 ;
