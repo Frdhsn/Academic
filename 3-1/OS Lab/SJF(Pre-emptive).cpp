@@ -5,12 +5,9 @@ WT  - Waiting Time
 AT  - Arrival Time
 BT  - Burst Time
 CT  - Completion Time
-
 Formula:
-
 Turn Around Time = Completion Time  – Arrival Time
 Waiting Time     = Turn Around Time – Burst Time
-
 */
 #include<bits/stdc++.h>
 using namespace std;
@@ -92,7 +89,10 @@ int main (){
                 }
             }
         }
-
+        if(PQ.empty()){
+            time++;
+            continue;
+        }
         pii u = PQ.top();
         PQ.pop();
         time++;
@@ -118,15 +118,3 @@ int main (){
     printAverage_TAT(Array,N);
     return 0;
 }
-/*
-number of process
-process_name arrival_time burst_time
-
-4
-P1 0 8
-P2 1 4
-P3 2 9
-P4 3 5
-
-*/
-
