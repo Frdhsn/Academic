@@ -1,6 +1,7 @@
+// If you get compile error in codeblocks
+// goto settings->compiler-> toggle (c++11 or c++14) box on->click ok
 /*
     Problem link: http://webpages.ursinus.edu/adhawan/os/hw6s.txt
-    Author: Farhad
     Date  : 28.10.19
 */
 #include<bits/stdc++.h>
