@@ -1,3 +1,5 @@
+// SJF (Non preemptive) 
+// arrival time dewa na thakle
 /*
 TAT - Turn Around Time
 WT  - Waiting Time
@@ -76,8 +78,6 @@ int main (){
             //cout<<"Enter name , burst time , priority: ";
             cin >> Array[i].name >> Array[i].BT >> Array[i].priority;
             Array[i].ipos = i;
-            // If arrival time is given
-            // cin >> Array[i].AT;
     }
     sort(Array+1 , Array+1+N);
 
