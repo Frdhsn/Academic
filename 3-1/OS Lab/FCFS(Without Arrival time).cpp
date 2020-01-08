@@ -1,4 +1,6 @@
-// Without arrival time
+// If you get compile error in codeblocks
+// goto settings->compiler-> toggle (c++11 or c++14) box on->click ok
+// FCFS Without Arrival Time
 /*
 TAT - Turn Around Time
 WT  - Waiting Time
