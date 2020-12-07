@@ -1,1 +1,11 @@
-haha
+Assignment: 
+Please implement the algorithms as instructed in the class and attach those with screens shots of the output. Please use user input for all these implementations. 
+***You must use proper comment to make the statements more understandable.
+
+#Line Clipping
+  1. The Cohen-Sutherland Algorithm
+  2. Midpoint Subdivision
+  3. The Laing-Barsky Algorithm
+#Polygon Clipping
+  1. The Sutherland-Hodgman Algorithm
+  2. The Weiler-Atherton Algorithm
